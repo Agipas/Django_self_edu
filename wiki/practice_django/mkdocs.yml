@@ -1,0 +1,22 @@
+site_name: practice_django
+#site_dir: '/Users/ione/PycharmProjects/pythonProject'
+#site_url: https://example.com/
+
+nav:
+  - index: index.md
+  - Dev: dev.md
+  - settings: settings.md
+  - Blog: blog/model.md
+
+
+
+dev_addr:
+  127.0.0.1:8200
+
+theme:
+    name: material
+
+
+plugins:
+  - search # necessary for search to work
+  - awesome-pages
